@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render TemperatureChart correctly 1`] = `
+<div>
+  <ReactFC
+    dataFormat="JSON"
+    dataSource={
+      Object {
+        "categories": Array [
+          Object {
+            "category": "2019-05-30 - 00:00|",
+          },
+        ],
+        "chart": Object {
+          "bgColor": "#fafafa",
+          "caption": "Temperature",
+          "compactdatamode": "1",
+          "dataseparator": "|",
+          "forceaxislimits": "1",
+          "numberSuffix": "°C",
+          "pixelsperlabel": "30",
+          "pixelsperpoint": "0",
+          "subcaption": "Click & drag on the plot area to zoom & then scroll",
+          "theme": "fusion",
+          "xaxisname": "Date",
+          "yaxisname": "Temperature",
+        },
+        "dataset": Array [
+          Object {
+            "data": "23.42|",
+            "seriesname": "Ambient Temperature",
+          },
+          Object {
+            "data": "13.03|",
+            "seriesname": "Outdoor Temperature",
+          },
+          Object {
+            "data": "25.5|",
+            "seriesname": "Target Temperature",
+          },
+        ],
+      }
+    }
+    height="100%"
+    type="zoomline"
+    width="100%"
+  />
+</div>
+`;

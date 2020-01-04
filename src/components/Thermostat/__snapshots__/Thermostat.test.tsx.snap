@@ -1,0 +1,848 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Thermostat correctly 1`] = `
+<div
+  className="thermostat"
+>
+  <div
+    className="thermostat_circle"
+  >
+    <div
+      className="thermostat_data"
+    >
+      <div
+        className="thermostat_data_temperature"
+      >
+        23
+      </div>
+      <div
+        className="thermostat_data_icon icon-heat"
+      />
+      <div
+        className="thermostat_data_status"
+      >
+        Heat
+      </div>
+    </div>
+  </div>
+  <div
+    className="thermostat_wave "
+  />
+  <div
+    className="thermostat_wave "
+  />
+  <div
+    className="thermostat_wave "
+  />
+  <div
+    className="thermostat_line"
+    key="0"
+    style={
+      Object {
+        "transform": "rotate(0deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="2"
+    style={
+      Object {
+        "transform": "rotate(2deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="4"
+    style={
+      Object {
+        "transform": "rotate(4deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="6"
+    style={
+      Object {
+        "transform": "rotate(6deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="8"
+    style={
+      Object {
+        "transform": "rotate(8deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="10"
+    style={
+      Object {
+        "transform": "rotate(10deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="12"
+    style={
+      Object {
+        "transform": "rotate(12deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="14"
+    style={
+      Object {
+        "transform": "rotate(14deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="16"
+    style={
+      Object {
+        "transform": "rotate(16deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="18"
+    style={
+      Object {
+        "transform": "rotate(18deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="20"
+    style={
+      Object {
+        "transform": "rotate(20deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="22"
+    style={
+      Object {
+        "transform": "rotate(22deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="24"
+    style={
+      Object {
+        "transform": "rotate(24deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="26"
+    style={
+      Object {
+        "transform": "rotate(26deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="28"
+    style={
+      Object {
+        "transform": "rotate(28deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="30"
+    style={
+      Object {
+        "transform": "rotate(30deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="32"
+    style={
+      Object {
+        "transform": "rotate(32deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="34"
+    style={
+      Object {
+        "transform": "rotate(34deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="36"
+    style={
+      Object {
+        "transform": "rotate(36deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="38"
+    style={
+      Object {
+        "transform": "rotate(38deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="40"
+    style={
+      Object {
+        "transform": "rotate(40deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="42"
+    style={
+      Object {
+        "transform": "rotate(42deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="44"
+    style={
+      Object {
+        "transform": "rotate(44deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="46"
+    style={
+      Object {
+        "transform": "rotate(46deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="48"
+    style={
+      Object {
+        "transform": "rotate(48deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="50"
+    style={
+      Object {
+        "transform": "rotate(50deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="52"
+    style={
+      Object {
+        "transform": "rotate(52deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="54"
+    style={
+      Object {
+        "transform": "rotate(54deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="56"
+    style={
+      Object {
+        "transform": "rotate(56deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="58"
+    style={
+      Object {
+        "transform": "rotate(58deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="60"
+    style={
+      Object {
+        "transform": "rotate(60deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="62"
+    style={
+      Object {
+        "transform": "rotate(62deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="64"
+    style={
+      Object {
+        "transform": "rotate(64deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="66"
+    style={
+      Object {
+        "transform": "rotate(66deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="68"
+    style={
+      Object {
+        "transform": "rotate(68deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="70"
+    style={
+      Object {
+        "transform": "rotate(70deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="72"
+    style={
+      Object {
+        "transform": "rotate(72deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="74"
+    style={
+      Object {
+        "transform": "rotate(74deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="76"
+    style={
+      Object {
+        "transform": "rotate(76deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="78"
+    style={
+      Object {
+        "transform": "rotate(78deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="80"
+    style={
+      Object {
+        "transform": "rotate(80deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="82"
+    style={
+      Object {
+        "transform": "rotate(82deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="84"
+    style={
+      Object {
+        "transform": "rotate(84deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="86"
+    style={
+      Object {
+        "transform": "rotate(86deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="88"
+    style={
+      Object {
+        "transform": "rotate(88deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="90"
+    style={
+      Object {
+        "transform": "rotate(90deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="92"
+    style={
+      Object {
+        "transform": "rotate(92deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="94"
+    style={
+      Object {
+        "transform": "rotate(94deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="96"
+    style={
+      Object {
+        "transform": "rotate(96deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="98"
+    style={
+      Object {
+        "transform": "rotate(98deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="100"
+    style={
+      Object {
+        "transform": "rotate(100deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="102"
+    style={
+      Object {
+        "transform": "rotate(102deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="104"
+    style={
+      Object {
+        "transform": "rotate(104deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="106"
+    style={
+      Object {
+        "transform": "rotate(106deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="108"
+    style={
+      Object {
+        "transform": "rotate(108deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="110"
+    style={
+      Object {
+        "transform": "rotate(110deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="112"
+    style={
+      Object {
+        "transform": "rotate(112deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="114"
+    style={
+      Object {
+        "transform": "rotate(114deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="116"
+    style={
+      Object {
+        "transform": "rotate(116deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="118"
+    style={
+      Object {
+        "transform": "rotate(118deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="120"
+    style={
+      Object {
+        "transform": "rotate(120deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="122"
+    style={
+      Object {
+        "transform": "rotate(122deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="124"
+    style={
+      Object {
+        "transform": "rotate(124deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="126"
+    style={
+      Object {
+        "transform": "rotate(126deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="128"
+    style={
+      Object {
+        "transform": "rotate(128deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="130"
+    style={
+      Object {
+        "transform": "rotate(130deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="132"
+    style={
+      Object {
+        "transform": "rotate(132deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="134"
+    style={
+      Object {
+        "transform": "rotate(134deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="136"
+    style={
+      Object {
+        "transform": "rotate(136deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="138"
+    style={
+      Object {
+        "transform": "rotate(138deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="140"
+    style={
+      Object {
+        "transform": "rotate(140deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="142"
+    style={
+      Object {
+        "transform": "rotate(142deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="144"
+    style={
+      Object {
+        "transform": "rotate(144deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="146"
+    style={
+      Object {
+        "transform": "rotate(146deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="148"
+    style={
+      Object {
+        "transform": "rotate(148deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="150"
+    style={
+      Object {
+        "transform": "rotate(150deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="152"
+    style={
+      Object {
+        "transform": "rotate(152deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="154"
+    style={
+      Object {
+        "transform": "rotate(154deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="156"
+    style={
+      Object {
+        "transform": "rotate(156deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="158"
+    style={
+      Object {
+        "transform": "rotate(158deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="160"
+    style={
+      Object {
+        "transform": "rotate(160deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="162"
+    style={
+      Object {
+        "transform": "rotate(162deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="164"
+    style={
+      Object {
+        "transform": "rotate(164deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="166"
+    style={
+      Object {
+        "transform": "rotate(166deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="168"
+    style={
+      Object {
+        "transform": "rotate(168deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="170"
+    style={
+      Object {
+        "transform": "rotate(170deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="172"
+    style={
+      Object {
+        "transform": "rotate(172deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="174"
+    style={
+      Object {
+        "transform": "rotate(174deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="176"
+    style={
+      Object {
+        "transform": "rotate(176deg)",
+      }
+    }
+  />
+  <div
+    className="thermostat_line"
+    key="178"
+    style={
+      Object {
+        "transform": "rotate(178deg)",
+      }
+    }
+  />
+</div>
+`;

@@ -1,0 +1,14 @@
+.unitsList {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  &_title {
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0;
+  }
+}

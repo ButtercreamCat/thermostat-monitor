@@ -1,0 +1,178 @@
+@import "../abstracts/variables";
+
+.button {
+  background: $white;
+  width: 90px;
+  height: 90px;
+  border: 2px solid $grey;
+  border-radius: 16px;
+  color: $black;
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin: 10px;
+  padding: 15px;
+  cursor: pointer;
+
+  &:hover {
+    border: 2px solid $blue;
+  }
+
+  &:focus {
+    outline: 0;
+    box-shadow: 0 0 0.1875em 0.1875em rgba(47, 180, 185, 0.3);
+  }
+
+  &-active {
+    background: $blue;
+    color: $white;
+    border: 2px solid $blue;
+  }
+
+  &-withoutBorder-withIcon {
+    width: auto;
+    height: auto;
+    border: none;
+    border-radius: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    span {
+      font-family: "icomoon";
+      font-size: 1.6rem;
+      line-height: 1;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      color: $blue;
+      margin-right: 10px;
+    }
+
+    .icon-back:before {
+      content: "\e908";
+    }
+
+    &:hover {
+      border: none;
+    }
+  }
+
+  &-square-withIcon {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    span {
+      font-family: "icomoon";
+      line-height: 1;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      color: $blue;
+    }
+    div {
+      margin-top: 10px;
+    }
+    .icon-cool:before {
+      content: "\e902";
+    }
+
+    .icon-heat:before {
+      content: "\e904";
+    }
+    .icon-fan-on:before {
+      content: "\e903";
+    }
+
+    .icon-auto:before {
+      content: "\e900";
+    }
+
+    .icon-off:before {
+      content: "\e906";
+    }
+
+    .icon-house:before {
+      content: "\e905";
+    }
+  }
+
+  &-square-withIcon.button-active {
+    span {
+      color: $white;
+    }
+  }
+
+  &-rect-withIcon {
+    border-radius: 12px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 190px;
+    height: 75px;
+    font-size: 1.6rem;
+    span {
+      font-family: "icomoon";
+      line-height: 1;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      color: $blue;
+    }
+    div {
+      margin-left: 10px;
+      letter-spacing: 0.7px;
+    }
+    .icon-thermostat:before {
+      content: "\e907";
+    }
+    .icon-chart:before {
+      content: "\e901";
+    }
+  }
+
+  &-rect-withIcon.button-active {
+    span {
+      color: $white;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .button {
+    width: 70px;
+    height: 70px;
+    border: 1px solid $grey;
+    border-radius: 16px;
+    font-size: 1.4rem;
+    margin: 10px;
+    padding: 0;
+
+    &-square-withIcon {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      div {
+        margin-top: 5px;
+      }
+    }
+
+    &-rect-withIcon {
+      border-radius: 12px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 130px;
+      height: 50px;
+      font-size: 1.4rem;
+
+      div {
+        margin-left: 10px;
+        letter-spacing: 0.4px;
+      }
+    }
+
+    &-withoutBorder-withIcon {
+      width: auto;
+      height: auto;
+      display: inline-block;
+      border: none;
+    }
+  }
+}

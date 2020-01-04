@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render InfoSidebar correctly 1`] = `
+<section
+  className="unitInfo_sidebar"
+>
+  <Link
+    className="button button-withoutBorder-withIcon"
+    to="/"
+  >
+    <span
+      className="icon-back"
+    />
+    Back
+  </Link>
+  <div
+    className="unitInfo_sidebar_header"
+  >
+    <img
+      alt="header"
+      className="unitInfo_sidebar_header_pic"
+      src="/images/room.jpg"
+    />
+    <div
+      className="unitInfo_sidebar_header_overlay"
+    />
+    <h1
+      className="unitInfo_sidebar_header_title"
+    >
+      Unit 
+      101
+    </h1>
+  </div>
+  <div
+    className="unitInfo_sidebar_btns"
+  >
+    <Link
+      className="button button-rect-withIcon button-active"
+      onClick={[Function]}
+      to="/unit/101/thermostat"
+    >
+      <span
+        className="icon-thermostat"
+      />
+      <div>
+        Thermostat
+      </div>
+    </Link>
+    <Link
+      className="button button-rect-withIcon "
+      onClick={[Function]}
+      to="/unit/101/chart"
+    >
+      <span
+        className="icon-chart"
+      />
+      <div>
+        Chart
+      </div>
+    </Link>
+  </div>
+  <img
+    alt="logo"
+    className="unitInfo_sidebar_logo"
+    src="/images/logo.svg"
+  />
+</section>
+`;

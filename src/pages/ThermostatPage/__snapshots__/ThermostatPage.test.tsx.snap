@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render ThermostatPage correctly 1`] = `
+<section
+  className="unitInfo_content"
+>
+  <Thermostat
+    status="Off"
+  />
+  <StatusButtons
+    handleClick={[Function]}
+    status="Off"
+  />
+</section>
+`;

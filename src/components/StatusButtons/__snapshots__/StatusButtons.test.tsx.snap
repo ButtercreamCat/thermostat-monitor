@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render StatusButtons correctly 1`] = `
+<div
+  className="statusButtonsContainer"
+>
+  <button
+    className="button button-square-withIcon false"
+    key="Cool"
+    onClick={[Function]}
+  >
+    <span
+      className="icon-cool"
+    />
+    <div>
+      Cool
+    </div>
+  </button>
+  <button
+    className="button button-square-withIcon false"
+    key="Heat"
+    onClick={[Function]}
+  >
+    <span
+      className="icon-heat"
+    />
+    <div>
+      Heat
+    </div>
+  </button>
+  <button
+    className="button button-square-withIcon false"
+    key="Fan-on"
+    onClick={[Function]}
+  >
+    <span
+      className="icon-fan-on"
+    />
+    <div>
+      Fan-on
+    </div>
+  </button>
+  <button
+    className="button button-square-withIcon false"
+    key="Auto"
+    onClick={[Function]}
+  >
+    <span
+      className="icon-auto"
+    />
+    <div>
+      Auto
+    </div>
+  </button>
+  <button
+    className="button button-square-withIcon button-active"
+    key="Off"
+    onClick={[Function]}
+  >
+    <span
+      className="icon-off"
+    />
+    <div>
+      Off
+    </div>
+  </button>
+</div>
+`;

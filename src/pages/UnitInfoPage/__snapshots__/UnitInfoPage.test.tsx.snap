@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render UnitInfoPage correctly 1`] = `
+<div
+  className="unitInfo"
+>
+  <InfoSidebar
+    id="110"
+    url="/unit/110"
+  />
+  <Switch>
+    <Route
+      path="/unit/:id/thermostat"
+    >
+      <ThermostatPage />
+    </Route>
+    <Route
+      path="/unit/:id/chart"
+    >
+      <ChartPage />
+    </Route>
+  </Switch>
+</div>
+`;
